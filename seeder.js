@@ -36,8 +36,6 @@ const importData = async () => {
 };
 
 // Delete data
-
-// Import into DB
 const deleteData = async () => {
   try {
     await Bootcamps.deleteMany();
